@@ -73,7 +73,7 @@ Pod::Man->new(
     'section' => 7,
     'center'  => 'OCF resource agents',
     'name'    => 'OCF_HEARTBEAT_PGSQLMS'
-)->parse_from_file( 'script/pgsqlms', 'ocf_heartbeat_pgsqlms.7' );
+)->parse_from_file('ocf_heartbeat_pgsqlms.7' );
 
 $man7_dir = $build->install_destination( 'bindoc' );
 $man7_dir =~ s@man1@man7@;
